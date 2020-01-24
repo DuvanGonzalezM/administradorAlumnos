@@ -160,7 +160,7 @@ export default class Cursos extends Component {
 
                 <div className="col-lg-12 col-md-12 col-sm-12 text-center container p-3">
 
-                    <h2>Lista de Alumnos</h2>
+                    <h2>Lista de Cursos</h2>
 
                     <table className="table table-striped table-dark mt-3">
                         <thead className="table-head">
@@ -173,8 +173,8 @@ export default class Cursos extends Component {
                         </thead>
                         <tbody className="table-body">
                             {list &&
-                                list.map((list) => (
-                                    <tr>
+                                list.map((list, index) => (
+                                    <tr key={index}>
                                         <td>{list.name_course}</td>
                                         <td>{list.alumns_course}</td>
                                         <td><i className="fa fa-edit icon" data-toggle="modal" data-target="#modalCourses" onClick={(event) => this.handleOpenModal('Editar', this.handleEditCourse, event, list.id_course)}></i></td>

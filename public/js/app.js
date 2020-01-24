@@ -74632,14 +74632,16 @@ function (_Component) {
         form: form
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "col-lg-12 col-md-12 col-sm-12 text-center container p-3"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Lista de Alumnos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Lista de Cursos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
         className: "table table-striped table-dark mt-3"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("thead", {
         className: "table-head"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Nombre"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Cantidad de Cursos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Editar"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Eliminar"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", {
         className: "table-body"
-      }, list && list.map(function (list) {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, list.name_course), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, list.alumns_course), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+      }, list && list.map(function (list, index) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
+          key: index
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, list.name_course), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, list.alumns_course), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
           className: "fa fa-edit icon",
           "data-toggle": "modal",
           "data-target": "#modalCourses",
