@@ -41,3 +41,5 @@ Ejecutamos el comando php artisan migrate:fresh –seed para correr las migracio
  
 •	Onceavo Paso: Iniciar proyecto 
 Damos clic derecho, en www y por último en administradorAlumnos, se nos abrirá la pagina en nuestro navegador y listo para realizar pruebas. 
+
+NOTA: Si no llegase a funcionar la url de la api, cambiarla por la que le proporciona Laragon.
