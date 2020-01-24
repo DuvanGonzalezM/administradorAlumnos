@@ -75150,7 +75150,7 @@ function (_Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var url = "http://administradoralumnos.test/";
+var url = "http://administradoralumnos.test:8080/";
 /* harmony default export */ __webpack_exports__["default"] = (url);
 
 /***/ }),
@@ -75223,8 +75223,8 @@ if (document.getElementById('Proyecto')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\administradorAlumnos\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\administradorAlumnos\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! c:\laragon\www\administradorAlumnos\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! c:\laragon\www\administradorAlumnos\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

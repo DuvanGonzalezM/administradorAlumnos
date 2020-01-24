@@ -166,7 +166,7 @@ export default class Cursos extends Component {
                         <thead className="table-head">
                             <tr>
                                 <th>Nombre</th>
-                                <th>Cantidad de Cursos</th>
+                                <th>Cantidad de Alumnos</th>
                                 <th>Editar</th>
                                 <th>Eliminar</th>
                             </tr>
