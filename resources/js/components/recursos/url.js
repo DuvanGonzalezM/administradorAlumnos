@@ -1,3 +1,3 @@
-const url = "http://administradoralumnos.test:8080/";
+const url = "http://administradoralumnos.test/";
 
 export default url;

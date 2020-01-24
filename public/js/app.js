@@ -75150,7 +75150,7 @@ function (_Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var url = "http://administradoralumnos.test:8080/";
+var url = "http://administradoralumnos.test/";
 /* harmony default export */ __webpack_exports__["default"] = (url);
 
 /***/ }),
